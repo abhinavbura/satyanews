@@ -1,0 +1,84 @@
+@font-face{
+    font-family: telugufont;
+    src: url(GIST-TLOT\ Atreya\ Bold.ttf);
+}
+@font-face {
+    font-family: headfont;
+    src: url(BarlowCondensed-Light.ttf);
+}
+.jo{
+    margin: 0px;
+}
+
+.topnav{
+    background-color:transparent;
+    margin-left: 206px;
+    margin-top: 3px;
+}
+.topnav a{
+    float:left;
+    background-color: rgb(187, 6, 6);
+    text-align: center;
+    padding: 25px 28px;
+    text-decoration: none;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    font-family: headfont;
+    margin: 0px ;
+}
+.topnav a:hover{
+
+    text-decoration: underline;
+    color: rgb(0, 0, 0);
+}
+.topnav a.active{
+    text-decoration: underline;
+}
+.topnav a.img{
+    float: right;
+    max-width: 44px;
+    max-height: 44px;
+    margin-top: 8px;
+    padding: 0px;
+
+}  
+.float-childb {
+    width: 20%;
+    margin-top: 12px;
+    float: top;
+    float: right;
+    padding: 2px;
+}
+.float-childb h1{
+    font-family: telugufont;
+    border-bottom: 3px solid rgb(34, 70, 146);
+}
+.float-childb ul{
+    padding-inline-start: 18px;
+
+}
+.float-childa{
+    float: left;
+    width: 78%;
+    font-size: 10px;
+}
+.home-news{
+    float: left;
+    width: 100%;
+    font-size: 20px;
+}
+.top-bar{
+    float: top;
+    background-image: url('back.png');
+    margin-bottom: -45px;
+}
+.img{
+    float: right;
+    max-width: 44px;
+    margin-top: 8px;
+}
+a.style {
+    max-width: 44px;
+    float: right;
+    margin-top: 19px;
+}
